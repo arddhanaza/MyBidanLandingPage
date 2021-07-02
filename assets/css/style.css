@@ -1,0 +1,177 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+body {
+  background-color: #f5f5f5;
+  font-family: "Lato Regular";
+  font-size: 18px;
+  scroll-behavior: smooth !important;
+}
+
+nav a {
+  margin-left: 30px;
+  color: #fafafa !important;
+  line-height: 22px;
+  word-spacing: 5px;
+}
+nav .btn-header {
+  background-color: #fafafa;
+  box-shadow: 0px 20px 25px -20px #000000;
+  border-radius: 26px;
+  color: #1E74FD !important;
+  border-color: transparent;
+}
+nav .active {
+  font-family: "Lato";
+  font-weight: bold;
+}
+nav .show {
+  background: linear-gradient(230.37deg, #1E74FD 12.17%, #95F573 113.98%);
+}
+nav .bg-grad {
+  background: linear-gradient(230.37deg, #1E74FD 12.17%, #95F573 113.98%);
+}
+
+h1, h2 {
+  font-family: "Lato";
+  font-weight: bold;
+  background: -webkit-linear-gradient(230.37deg, #1E74FD 12.17%, #95F573 113.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 94%;
+}
+
+.header .text-header {
+  font-size: 64px;
+  padding-bottom: 5px;
+}
+.header .text-header-description {
+  color: #252525;
+}
+.header .bg-header {
+  top: 0;
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+}
+
+#kolaborasi {
+  margin-top: 10%;
+}
+#kolaborasi .img-bg {
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  height: 50%;
+}
+#kolaborasi .row {
+  margin: 2%;
+}
+#kolaborasi .row .col {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#kolaborasi .row .col h2 {
+  margin: 0px auto;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+#kolaborasi .row .col .card-logo {
+  margin: 0px auto;
+  width: 150px;
+  height: 150px;
+  background-color: #fafafa;
+  background-clip: padding-box;
+  /* !importanté */
+  border: solid 1px transparent;
+  /* !importanté */
+  border-radius: 1em;
+}
+#kolaborasi .row .col .card-logo:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -1px;
+  /* !importanté */
+  border-radius: inherit;
+  /* !importanté */
+  background: linear-gradient(230.37deg, #1E74FD 12.17%, #95F573 113.98%);
+}
+#kolaborasi .row .col .card-logo .card-body {
+  display: flex;
+  align-items: center;
+}
+#kolaborasi .row .col .card-logo .card-body .logo {
+  margin: 0px auto;
+  width: 80%;
+}
+
+#fitur {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+#fitur h2 {
+  font-size: 48px;
+  margin-bottom: 5%;
+}
+#fitur .feature-image {
+  width: 100%;
+}
+#fitur .feature-description .feature-title {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  color: #252525;
+  font-weight: bold;
+}
+#fitur .feature-description .feature-text {
+  color: #565656;
+}
+
+#recall {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+#recall .card-recall {
+  background: linear-gradient(230.37deg, #1E74FD 12.17%, #95F573 113.98%);
+  border-radius: 57px;
+  border-color: transparent;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+}
+#recall .card-recall .card-body {
+  vertical-align: center;
+}
+#recall .card-recall .card-body #btn-recall {
+  text-align: right;
+}
+#recall .card-recall .card-body .btn-recall {
+  text-align: right;
+  background-color: #fafafa;
+  border-radius: 59px;
+  font-size: 24px;
+  padding: 3%;
+  color: #1E74FD !important;
+  border-color: transparent;
+  font-weight: bold;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#footer {
+  background-color: #1E74FD;
+}
+#footer .container {
+  color: white;
+}
+#footer .container p {
+  margin: 0px auto;
+}
+
+/*# sourceMappingURL=style.css.map */
