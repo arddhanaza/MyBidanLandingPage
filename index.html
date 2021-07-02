@@ -6,9 +6,10 @@
     <title>Bandung Tanginas</title>
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
+<div class="container" id="nav">
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent p-2">
         <a class="navbar-brand" href="">
             <img alt="" class="mr-5" height="55" src="assets/img/Lambang_Kota_Bandung.png">
@@ -22,19 +23,16 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="">Tentang Kami</a>
+                    <a class="nav-link ml-lg-5 ml-lg-3" href="#header">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Kolaborasi</a>
+                    <a class="nav-link ml-lg-5 ml-lg-3" href="#kolaborasi">Kolaborasi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Tim Kami</a>
+                    <a class="nav-link ml-lg-5 ml-lg-3" href="#fitur">Fitur</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Fitur</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-primary btn-header px-3" href="">Ke Aplikasi</a>
+                    <a class="nav-link btn btn-primary btn-header px-3 ml-lg-5 ml-lg-3" href="">Ke Aplikasi</a>
                 </li>
             </ul>
         </div>
@@ -42,7 +40,8 @@
 </div>
 <div class="header container pt-5" id="header">
     <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 pl-5 pt-5" style="margin: auto">
+        <div class="col-lg-4 col-md-8 col-sm-12 pl-5 pt-5" data-aos="fade-down-right" data-aos-duration="1000"
+             data-aos-easing="linear" style="margin: auto">
             <h1 class="text-header">
                 Bandung Tanginas
             </h1>
@@ -54,8 +53,9 @@
                 Bandung dalam program Pengabdian Masyarakat Kolaborasi Tahun 2021.
             </p>
         </div>
-        <div class="col-lg-8 col-md-8 d-none d-md-block">
-            <img alt="" class="bg-header" src="assets/img/bg-header.png">
+        <div class="col-lg-8 col-md-6 d-none d-md-block">
+            <img alt="" class="bg-header" data-aos="fade-down-left" data-aos-duration="1000"
+                 data-aos-easing="linear" src="assets/img/bg-header.png">
         </div>
     </div>
 </div>
@@ -69,14 +69,14 @@
             </div>
         </div>
         <div class="row">
-            <div class="col col-6">
+            <div class="col col-lg-6 col-md-6 col-sm-12" data-aos="fade-down" data-aos-duration="1000">
                 <div class="card card-logo">
                     <div class="card-body">
                         <img alt="" class="logo" src="assets/img/Logo_Telkom_University_potrait.png">
                     </div>
                 </div>
             </div>
-            <div class="col col-6">
+            <div class="col col-lg-6 col-md-6 col-sm-12" data-aos="fade-down" data-aos-duration="1000">
                 <div class="card card-logo">
                     <div class="card-body">
                         <img alt="" class="logo" src="assets/img/Logo%20PKK.png">
@@ -84,22 +84,22 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col col-4">
+        <div class="row" data-aos="fade-down" data-aos-duration="1250">
+            <div class="col col-lg-4 col-md-4 col-sm-12">
                 <div class="card card-logo">
                     <div class="card-body">
                         <img alt="" class="logo" src="assets/img/logo_app.png">
                     </div>
                 </div>
             </div>
-            <div class="col col-4">
+            <div class="col col-lg-4 col-md-4 col-sm-12">
                 <div class="card card-logo">
                     <div class="card-body">
                         <img alt="" class="logo" src="assets/img/FRI.png">
                     </div>
                 </div>
             </div>
-            <div class="col col-4">
+            <div class="col col-lg-4 col-md-4 col-sm-12">
                 <div class="card card-logo">
                     <div class="card-body">
                         <img alt="" class="logo" src="assets/img/FIT.png">
@@ -114,28 +114,89 @@
 <div class="container" id="fitur">
     <div class="row">
         <div class="col col-12">
-            <h2>
+            <h2 data-aos="fade-right" data-aos-duration="1000">
                 Fitur Kami
             </h2>
         </div>
     </div>
-    <div class="row">
-        <div class=" col-lg-4 col-md-4 col-sm-12">
+    <div class="row mb-5">
+        <div class="mb-3 col-lg-4 col-md-4 col-sm-12" data-aos="fade-right" data-aos-duration="1000">
             <img alt="" class="feature-image" src="assets/img/Rectangle%207.png">
         </div>
-        <div class="feature-description col-lg-8 col-sm-8 col-sm-12">
+        <div class="mb-3 feature-description col-lg-8 col-sm-8 col-sm-12" data-aos="fade-left" data-aos-duration="750">
             <img alt="" src="assets/img/Rectangle%2010.png">
-            <h3 class="feature-title">Text</h3>
+            <h3 class="feature-title">Pemeriksaan Ibu</h3>
             <p class="feature-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, amet consequuntur doloremque error id
-                impedit, ipsam iusto laboriosam libero, modi nam odio perspiciatis possimus provident quisquam sit
-                temporibus. Aspernatur, eveniet.
+                Fitur ini berguna untuk mencatat rekam medis ibu secara digital dan memudahkan dalam melakukan
+                monitoring kesehatan Ibu.
             </p>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="mb-3 feature-description col-lg-8 col-sm-8 col-sm-12" data-aos="fade-right" data-aos-duration="750">
+            <img alt="" src="assets/img/Rectangle%2010.png">
+            <h3 class="feature-title">Pemeriksaan Balita</h3>
+            <p class="feature-text">
+                Fitur ini berguna untuk mencatat rekam medis balita secara digital dan memudahkan dalam melakukan
+                monitoring kesehatan balita
+            </p>
+        </div>
+        <div class="mb-3 col-lg-4 col-md-4 col-sm-12" data-aos="fade-left" data-aos-duration="1000">
+            <img alt="" class="feature-image" src="assets/img/Rectangle%207.png">
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="mb-3 col-lg-4 col-md-4 col-sm-12" data-aos="fade-right" data-aos-duration="1000">
+            <img alt="" class="feature-image" src="assets/img/Rectangle%207.png">
+        </div>
+        <div class="mb-3 feature-description col-lg-8 col-sm-8 col-sm-12" data-aos="fade-left" data-aos-duration="750">
+            <img alt="" src="assets/img/Rectangle%2010.png">
+            <h3 class="feature-title">Riwayat Kehamilan</h3>
+            <p class="feature-text">
+                Melakukan pencatatan terkait dengan jumlah kehamilan serta riwayat kehamilan Ibu.
+            </p>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="mb-3 feature-description col-lg-8 col-sm-8 col-sm-12" data-aos="fade-right" data-aos-duration="750">
+            <img alt="" src="assets/img/Rectangle%2010.png">
+            <h3 class="feature-title">Klinik</h3>
+            <p class="feature-text">
+                Memberikan informasi terkait dengan klinik yang menggunakan aplikasi Bandung Tanginas.
+            </p>
+        </div>
+        <div class="mb-3 col-lg-4 col-md-4 col-sm-12" data-aos="fade-left" data-aos-duration="1000">
+            <img alt="" class="feature-image" src="assets/img/Rectangle%207.png">
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="mb-3 col-lg-4 col-md-4 col-sm-12" data-aos="fade-right" data-aos-duration="1000">
+            <img alt="" class="feature-image" src="assets/img/Rectangle%207.png">
+        </div>
+        <div class="mb-3 feature-description col-lg-8 col-sm-8 col-sm-12" data-aos="fade-left" data-aos-duration="750">
+            <img alt="" src="assets/img/Rectangle%2010.png">
+            <h3 class="feature-title">Kelas Asuh</h3>
+            <p class="feature-text">
+                Berisi video dan juga materi yang dapat digunakan sebagai sumber pengetahuan oleh Ibu.
+            </p>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="mb-3 feature-description col-lg-8 col-sm-8 col-sm-12" data-aos="fade-right" data-aos-duration="750">
+            <img alt="" src="assets/img/Rectangle%2010.png">
+            <h3 class="feature-title">Artikel dan Berita</h3>
+            <p class="feature-text">
+                Berisi berita dan artikel kesehatan tang valid dan uptodate sehingga ibu dapat mengakses berita
+                terpercaya.
+            </p>
+        </div>
+        <div class="mb-3 col-lg-4 col-md-4 col-sm-12" data-aos="fade-left" data-aos-duration="1000">
+            <img alt="" class="feature-image" src="assets/img/Rectangle%207.png">
         </div>
     </div>
 </div>
 
-<div class="container p-0" id="recall">
+<div class="container p-0" data-aos="fade-up" data-aos-duration="1500" id="recall">
     <div class="card px-5 card-recall">
         <div class="card-body">
             <div class="row">
@@ -157,6 +218,40 @@
     </div>
 </div>
 
+<div class="bt-up d-none d-md-block " id="bt-up">
+    <a href="#nav"><img alt="" src="assets/img/up.png"></a>
+</div>
+
 <script src="assets/js/bootstrap.bundle.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script !src="">
+    AOS.init();
+
+    var scrollToTopBtn = document.getElementById('bt-up');
+    var rootElement = document.documentElement;
+
+    function handleScroll() {
+        // Do something on scroll
+        var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+        if ((rootElement.scrollTop / scrollTotal) > 0.10) {
+            // Show button
+            scrollToTopBtn.classList.add("showBtn")
+        } else {
+            // Hide button
+            scrollToTopBtn.classList.remove("showBtn")
+        }
+    }
+
+    function scrollToTop() {
+        // Scroll to top logic
+        rootElement.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    }
+
+    scrollToTopBtn.addEventListener("click", scrollToTop);
+    document.addEventListener("scroll", handleScroll);
+</script>
 </body>
 </html>
